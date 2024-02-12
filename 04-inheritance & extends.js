@@ -37,4 +37,18 @@ class Programmer extends Person {
 
 
 
+const programmers = [
+    new Programmer("Dom", 56, 12),
+    new Programmer("Jaff", 24, 4)
+];
+
+function developSoftware(programmers) {
+    // DevelopSoftware
+
+    for (let programmer of programmers) {
+        programmer.code();
+    }
+}
+
+developSoftware(programmers);
 
