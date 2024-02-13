@@ -6,11 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Akram Silawat</h1>
+    <h2 id="title">Classes: HTML List Binding</h2>
+
+    <ul id="myList">
+        <!-- To be filled Javascript -->
+
+        <!-- <li>Item #1</li>
+        <li>Item #2</li> -->
+    </ul>
     <!-- <script src="./01-the basics- javascript oop tutorial.js"></script> -->
     <!-- <script src="./02-getters & setters.js"></script> -->
     <!-- <script src="./03-static method.js"></script> -->
     <!-- <script src="./04-inheritance & extends.js"></script> -->
-    <script src="./05-polymorphism.js"></script>
+    <!-- <script src="./05-polymorphism.js"></script> -->
+    <script src="./06-creating a html binding.js"></script>
+
+    <script type="text/javascript">
+        const myList = document.getElementById('myList');
+
+        const listBinding = new ListBinding(myList);
+    </script>
 </body>
 </html>
